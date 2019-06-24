@@ -34,3 +34,4 @@
   tags:
     - service
     - ntp
+  when: ansible_service_mgr != "systemd"
