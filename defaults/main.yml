@@ -1,7 +1,7 @@
 ---
-ntp_pkg_state: 'installed'
-ntp_service_state: 'started'
-ntp_service_enabled: 'yes'
+ntp_pkg_state: present
+ntp_service_state: started
+ntp_service_enabled: yes
 
 ntp_config_server:
   - 0.pool.ntp.org
